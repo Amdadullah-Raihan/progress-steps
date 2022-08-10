@@ -30,7 +30,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    `
     
 }
 .progress-container::before{
@@ -74,4 +73,12 @@ button:active{
 }
 button:disabled{
     background-color: lightgray;
+}
+@media (max-width: 480px) {
+    .container{
+        width: 100vw;
+    }
+    .progress-container{
+        width: 80vw;
+    }
 }
